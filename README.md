@@ -5,5 +5,5 @@
 2. turn on your Redis server.
 3. Cd the directory 'pwc'.
 4. Set the environment variables of the replicate and OpenAI keys.
-5. Run the following command 'gunicorn server:app --worker-class gevent --bind 127.0.0.1:8000'
+5. Run the following command '''gunicorn server:app --worker-class gevent --bind 127.0.0.1:8000'''
  
